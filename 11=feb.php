@@ -1082,5 +1082,3 @@ $users = $stmt->fetch(PDO::FETCH_ASSOC);
   include_once("./layout/footer.php");
 
   ?>
-
-
