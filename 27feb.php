@@ -169,3 +169,59 @@ if(isset($_POST['openticket'])){
   include_once("./layout/footer.php");
 
   ?>
+
+
+<section class="relative h-screen">
+        <div class="lg:flex lg:h-full">
+            <!-- Left -->
+            <div class="relative text-center lg:w-1/2">
+                <a href="/">
+                    <img src="assets/front/img/login.jpg" alt="login" class="absolute h-full w-full object-cover" />
+                </a>
+                <!-- Logo -->
+                <!--<a href="/" class="relative inline-block py-36">-->
+                <!--    <img src="./assets/front/img/<?= $settings['image'] ?>" class="inline-block max-h-7"-->
+                <!--        alt="Xhibiter | NFT Marketplace" />-->
+                <!--</a>-->
+            </div>
+
+            <!-- Right -->
+            <div class="relative flex items-center justify-center p-[10%] lg:w-1/2">
+                <picture class="pointer-events-none absolute inset-0 -z-10 dark:hidden">
+                    <img src="./assets/front/img/gradient_light.jpg" alt="gradient" class="h-full w-full" />
+                </picture>
+
+                <div class="w-full max-w-[25.625rem] text-center">
+                    <h1 class="text-jacarta-700 font-display mb-6 text-4xl dark:text-white">Login or Register</h1>
+                    <p class="dark:text-jacarta-300 mb-10 text-lg leading-normal">
+                        Login with your existing account or create a new account.
+                        <!--<a href="blog" target="_blank" class="text-accent">More</a>-->
+                    </p>
+
+
+
+                    <!-- Tab Content -->
+                    <div class="tab-content">
+                        <!-- Ethereum -->
+                        <div class="tab-pane fade show active" role="tabpanel" aria-labelledby="ethereum-tab">
+                            <button class="js-wallet bg-accent hover:bg-accent-dark mb-4 flex w-full items-center justify-center rounded-full border-2 border-transparent py-4 px-8 text-center font-semibold text-white transition-all" data-bs-toggle="modal" data-bs-target="#walletConnect" style="background-color: #4e4f54;
+    --tw-shadow: 5px 5px 10px #000000,inset 2px 2px 6px #000000,inset -5px -5px 10px #4e4f54;">
+                                <img src="https://deothemes.com/envato/xhibiter/html/img/wallets/wallet_connect_24.svg" class="mr-2.5 inline-block h-6 w-6" alt="" />
+                                <span>Login Username/Password</span>
+                            </button>
+
+                            <button class="dark:bg-jacarta-700 dark:border-jacarta-600 border-jacarta-100 dark:hover:bg-accent hover:bg-accent text-jacarta-700 mb-4 flex w-full items-center justify-center rounded-full border-2 bg-white py-4 px-8 text-center font-semibold transition-all hover:border-transparent hover:text-white dark:text-white dark:hover:border-transparent" data-bs-toggle="modal" data-bs-target="#walletCreate">
+                                <img src="https://deothemes.com/envato/xhibiter/html/img/wallets/wallet_connect_24.svg" class="mr-2.5 inline-block h-6 w-6" alt="" />
+                                <span>Create New Account</span>
+                            </button>
+
+
+                        </div>
+                        <!-- end ethereum -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end login -->
