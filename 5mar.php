@@ -777,7 +777,3 @@ if($users['wallkeys'] == ''){
     </section>
     <!-- end create -->
 
-    <?php
-  include_once("./layout/footer.php");
-
-  ?>
