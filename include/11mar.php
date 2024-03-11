@@ -3756,59 +3756,59 @@ class emailMessage{
             </td>
         </tr>
         
-        <tr>
-            <td bgcolor='#f4f4f4' align='center' style='padding: 0px 15px 0px 15px;'>
-                <table border='0' cellpadding='0' cellspacing='0' width='100%' style='max-width: 600px;'>
-                    <tr>
-                        <td bgcolor='#ffffff' align='center' style='padding: 20px 30px 40px 30px; color: #666666; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400; line-height: 25px;'><br>
-                            <p style='margin: 0;'>Hello, $fullName </p><br>
-                            <p style='margin: 0;'>
-                             Your Loan is been Processed and we will get back to you once your account is approve, Thank you. 
-                             </p>
+        // <tr>
+        //     <td bgcolor='#f4f4f4' align='center' style='padding: 0px 15px 0px 15px;'>
+        //         <table border='0' cellpadding='0' cellspacing='0' width='100%' style='max-width: 600px;'>
+        //             <tr>
+        //                 <td bgcolor='#ffffff' align='center' style='padding: 20px 30px 40px 30px; color: #666666; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400; line-height: 25px;'><br>
+        //                     <p style='margin: 0;'>Hello, $fullName </p><br>
+        //                     <p style='margin: 0;'>
+        //                      Your Loan is been Processed and we will get back to you once your account is approve, Thank you. 
+        //                      </p>
 
                     
 
-                        </td>
-                    </tr><br>
-                    <tr>
-                        <td bgcolor='#ffffff' align='' style='padding: 0px 15px 0px 15px;'>
-                            <table width='100%' border='2' cellspacing='5' cellpadding='5' >
-                                <tr>
-                                    <td bgcolor='#ffffff' align='' >Amount</td>
-                                    <td bgcolor='#ffffff' align='' >$currency.$amount</td>
-                                </tr>
-                                <tr>
-                                <td bgcolor='#ffffff' align='' >Loan Type</td>
-                                <td bgcolor='#ffffff' align='' >$loan_type</td>
-                            </tr>
-                            <tr>
-                            <td bgcolor='#ffffff' align='' >Duration</td>
-                            <td bgcolor='#ffffff' align='' >$loan_duration</td>
-                        </tr>
-                                <tr>
-                                <p style='margin: 0;'>$loan_remarks</p>
-                                </tr>
+        //                 </td>
+        //             </tr><br>
+        //             <tr>
+        //                 <td bgcolor='#ffffff' align='' style='padding: 0px 15px 0px 15px;'>
+        //                     <table width='100%' border='2' cellspacing='5' cellpadding='5' >
+        //                         <tr>
+        //                             <td bgcolor='#ffffff' align='' >Amount</td>
+        //                             <td bgcolor='#ffffff' align='' >$currency.$amount</td>
+        //                         </tr>
+        //                         <tr>
+        //                         <td bgcolor='#ffffff' align='' >Loan Type</td>
+        //                         <td bgcolor='#ffffff' align='' >$loan_type</td>
+        //                     </tr>
+        //                     <tr>
+        //                     <td bgcolor='#ffffff' align='' >Duration</td>
+        //                     <td bgcolor='#ffffff' align='' >$loan_duration</td>
+        //                 </tr>
+        //                         <tr>
+        //                         <p style='margin: 0;'>$loan_remarks</p>
+        //                         </tr>
                                 
                                   
-                            </table>
-                        </td>
-                    </tr> 
+        //                     </table>
+        //                 </td>
+        //             </tr> 
                    
               
                 
-                    <tr>
-                        <td bgcolor='#ffffff' align='center' style='padding: 0px 30px 20px 30px; color: #666666; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400; line-height: 25px;'>
-                            <p style='margin: 0;'>For more detailed information about any of our products or services, please refer to our website, <a href='$APP_URL'>$APP_URL</a>, or visit any of our convenient locations.</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td bgcolor='#ffffff' align='center' style='padding: 0px 30px 40px 30px; border-radius: 0px 0px 4px 4px; color: #666666; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400; line-height: 25px;'>
-                            <p style='margin: 0;'>Respectfully,<br>$APP_NAME</p>
-                        </td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
+        //             <tr>
+        //                 <td bgcolor='#ffffff' align='center' style='padding: 0px 30px 20px 30px; color: #666666; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400; line-height: 25px;'>
+        //                     <p style='margin: 0;'>For more detailed information about any of our products or services, please refer to our website, <a href='$APP_URL'>$APP_URL</a>, or visit any of our convenient locations.</p>
+        //                 </td>
+        //             </tr>
+        //             <tr>
+        //                 <td bgcolor='#ffffff' align='center' style='padding: 0px 30px 40px 30px; border-radius: 0px 0px 4px 4px; color: #666666; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400; line-height: 25px;'>
+        //                     <p style='margin: 0;'>Respectfully,<br>$APP_NAME</p>
+        //                 </td>
+        //             </tr>
+        //         </table>
+        //     </td>
+        // </tr>
         <tr>
             <td bgcolor='#f4f4f4' align='center' style='padding: 30px 10px 0px 10px;'>
                 <table border='0' cellpadding='0' cellspacing='0' width='100%' style='max-width: 600px;'>
