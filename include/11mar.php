@@ -3911,12 +3911,7 @@ class emailMessage{
             border-collapse: collapse !important;
         }
 
-        body {
-            height: 100% !important;
-            margin: 0 !important;
-            padding: 0 !important;
-            width: 100% !important;
-        }
+        
 
         /* iOS BLUE LINKS */
         a[x-apple-data-detectors] {
