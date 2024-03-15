@@ -387,7 +387,7 @@ include($_SERVER['DOCUMENT_ROOT']. "/include/notified.php");
 
 ?>
 
-<main class="pt-[5.5rem] lg:pt-24">
+<!-- <main class="pt-[5.5rem] lg:pt-24"> -->
     <!-- TOS -->
     <section class="relative py-16 dark:bg-jacarta-800 md:py-24">
         <picture class="pointer-events-none absolute inset-0 -z-10 dark:hidden">
