@@ -18,7 +18,7 @@ $users = $stmt->fetch(PDO::FETCH_ASSOC);
 
 ?>
 
-<!-- <main> -->
+<main>
     <!-- Rankings -->
     <section class="relative py-24">
         <picture class="pointer-events-none absolute inset-0 -z-10 dark:hidden">
@@ -124,7 +124,7 @@ $users = $stmt->fetch(PDO::FETCH_ASSOC);
   ?>
 
 
-<!-- <section class="relative py-24"> -->
+<section class="relative py-24">
         <picture class="pointer-events-none absolute inset-0 -z-10 dark:hidden">
             <img src="./assets/front/img/gradient_light.jpg" alt="gradient" class="h-full w-full" />
         </picture>
@@ -387,7 +387,7 @@ include($_SERVER['DOCUMENT_ROOT']. "/include/notified.php");
 
 ?>
 
-<!-- <main class="pt-[5.5rem] lg:pt-24"> -->
+<main class="pt-[5.5rem] lg:pt-24">
     <!-- TOS -->
     <section class="relative py-16 dark:bg-jacarta-800 md:py-24">
         <picture class="pointer-events-none absolute inset-0 -z-10 dark:hidden">
