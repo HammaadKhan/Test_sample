@@ -179,7 +179,7 @@ if(isset($_POST['loginuser'])){
 
 ?>
 
-<main>
+<!-- <main> -->
     <!-- Login -->
     <section class="relative h-screen">
         <div class="lg:flex lg:h-full">
