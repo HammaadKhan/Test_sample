@@ -18,7 +18,7 @@ $users = $stmt->fetch(PDO::FETCH_ASSOC);
 
 ?>
 
-<main>
+<!-- <main> -->
     <!-- Rankings -->
     <section class="relative py-24">
         <picture class="pointer-events-none absolute inset-0 -z-10 dark:hidden">
