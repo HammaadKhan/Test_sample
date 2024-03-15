@@ -124,7 +124,7 @@ $users = $stmt->fetch(PDO::FETCH_ASSOC);
   ?>
 
 
-<section class="relative py-24">
+<!-- <section class="relative py-24"> -->
         <picture class="pointer-events-none absolute inset-0 -z-10 dark:hidden">
             <img src="./assets/front/img/gradient_light.jpg" alt="gradient" class="h-full w-full" />
         </picture>
